@@ -1,0 +1,13 @@
+{
+  "title": "Wireframe",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "The wireframe is in charge of wiring all the components."
+    },
+    {
+      "type": "markdown",
+      "data": "It's also in charge of the `routing`."
+    }
+  ]
+}

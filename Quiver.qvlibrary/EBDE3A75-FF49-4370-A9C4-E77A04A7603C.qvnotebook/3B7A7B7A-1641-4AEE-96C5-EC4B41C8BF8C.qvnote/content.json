@@ -1,0 +1,13 @@
+{
+  "title": "Certificate Pinning",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "Defines which CAs are trusted"
+    },
+    {
+      "type": "markdown",
+      "data": "Reduce effectives on `man in the middle`"
+    }
+  ]
+}

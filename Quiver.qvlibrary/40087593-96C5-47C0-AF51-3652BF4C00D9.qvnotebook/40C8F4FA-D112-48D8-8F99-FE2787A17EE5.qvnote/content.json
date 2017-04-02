@@ -1,0 +1,22 @@
+{
+  "title": "Module Interface",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "Every Module should have a `Module Interface`. That describes the general functionality of that module"
+    },
+    {
+      "type": "markdown",
+      "data": "For example in a Login Module the `LoginModuleInterface` should contain code like:"
+    },
+    {
+      "type": "code",
+      "language": "swift",
+      "data": "import Foundation\n\n// The module interface\nprotocol LoginModuleInterface : class {\n\n    // Login with email and password\n    func login(email: String, password: String)\n    func presentError(message: String)\n}"
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

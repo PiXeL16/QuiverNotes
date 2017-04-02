@@ -1,0 +1,13 @@
+{
+  "title": "General Order",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "ViewController -> View -> Presenter -> Interactor -> Service"
+    },
+    {
+      "type": "markdown",
+      "data": "The Wireframe is in charge of putting everything together and also to manage the **`Routing`**"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Bcrypt",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "The **bcrypt** function is the default password hash algorithm for OpenBSD[2] and other systems including some Linux distributions such as SUSE "
+    },
+    {
+      "type": "markdown",
+      "data": "Should be used for salting passwords, pins, etc"
+    }
+  ]
+}

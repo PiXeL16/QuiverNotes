@@ -1,0 +1,47 @@
+{
+  "title": "Interactor",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "The `interactor` has inputs and outputs"
+    },
+    {
+      "type": "markdown",
+      "data": "The `InteractorOutput` should contain the functionality that gets executed after the Interactor has done the work"
+    },
+    {
+      "type": "markdown",
+      "data": "The `InteractorInput` should contain the functionality that the interactor needs to work"
+    },
+    {
+      "type": "markdown",
+      "data": "For example an `InteractorOutput` for a Login functionality could look like this:"
+    },
+    {
+      "type": "code",
+      "language": "swift",
+      "data": "import Foundation\n\n///Output functionality from the interactor\ninternal protocol LoginInteractorOutput: class {\n\n    func loginFail(error: AuthenticationServiceError)\n    func loginSucceed(user: User)\n\n}\n"
+    },
+    {
+      "type": "markdown",
+      "data": "This `output` functionality is normally implemented by the `Presenter`"
+    },
+    {
+      "type": "markdown",
+      "data": "The `Input` functionality is normally implemented by the concrete `Presenter`. And it could just look like this:"
+    },
+    {
+      "type": "code",
+      "language": "swift",
+      "data": "import Foundation\n\n// Input functionality for the Login Interactor\ninternal protocol LoginInteractorInput : class {\n\n    // Login the user with email and password\n    func login(email: String, password: String)\n}\n"
+    },
+    {
+      "type": "markdown",
+      "data": "Normally the `interactor Input` will call the `interactor output` implemented by the `presenter` when the work is done"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}
