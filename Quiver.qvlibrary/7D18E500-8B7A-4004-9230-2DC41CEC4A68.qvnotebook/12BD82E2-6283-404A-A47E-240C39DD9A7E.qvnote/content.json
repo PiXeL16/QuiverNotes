@@ -1,0 +1,31 @@
+{
+  "title": "JSON Data Structure",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Users"
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "data": "{\n  \"users\": [\n    \"123123123\": {\n      \"name\":\"Julia\",\n      \"lastname\": \"Arroyo\",\n      \"budgets\": [\n        \"123123\",\n        \"23452345\"\n        \"23452345\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "type": "markdown",
+      "data": "# Budget"
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "data": "{\n  \"budgets\": [\n    \"34535345345\":{\n      \"users\":[\"234234\",\"24234\",\"234234\"],\n      \"amount\":123123,\n      \"moneyleft\":123123,\n      \"name\":\"123123\",\n      \"type\":\"monthly\",\n      \"currency\":\"EU\",\n      \"startDay\":1,\n      \"createdAt\":\"asd\",\n      \"updatedAt\":\"asdf\",\n      \"transactions\":[\n        \"5432543253245\": {\n          \"amount\":4325345\n          \"type\":\"spend\",\n          \"date\":\"3453245\",\n          \"note\":\"supermarket\"\n        },\n        \"5432543253245\": {\n          \"amount\":4325345\n          \"type\":\"spend\",\n          \"date\":\"3453245\",\n          \"note\":\"supermarket\"\n        }\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}

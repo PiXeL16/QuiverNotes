@@ -1,0 +1,9 @@
+{
+  "title": "Entities",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "* Budgets\n    * Amount\n    * Money Left\n    * Users\n    * Transactions\n    * Name\n    * Budget Period\n        * Monthly\n        * Weekly\n    * Start Date\n    * Currency\n* User\n    * Email\n    * Name\n    * SignUp (Firebase)\n* Transaction\n    * Amount\n    * Type\n        * Spend\n        * Receive\n    * Date\n    * Note"
+    }
+  ]
+}
