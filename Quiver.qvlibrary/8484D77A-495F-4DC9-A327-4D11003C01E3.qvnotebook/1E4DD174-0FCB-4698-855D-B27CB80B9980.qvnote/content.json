@@ -1,0 +1,17 @@
+{
+  "title": "Pods and functionality",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Templating to build the mocks\nhttps://github.com/kylef/Stencil\n# Getting the information from the swift framework\nhttps://github.com/jpsim/SourceKitten\n# Working with files and generating stuff\nhttps://github.com/nvzqz/FileKit\n# Working with command line \nhttps://github.com/Carthage/Commandant"
+    },
+    {
+      "type": "markdown",
+      "data": "#Example project"
+    },
+    {
+      "type": "markdown",
+      "data": "https://github.com/Brightify/Cuckoo"
+    }
+  ]
+}
